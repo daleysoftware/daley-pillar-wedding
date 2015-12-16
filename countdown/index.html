@@ -1,0 +1,36 @@
+---
+layout: base
+---
+
+{% contentfor scripts %}
+<script type="text/javascript">
+window.onload = function() {
+    var target_date = new Date("Jun 4, 2016 4:45 pm").getTime();
+    var days, hours, minutes, seconds;
+    var countdown = document.getElementById("countdown");
+    setInterval(function () {
+        var current_date = new Date().getTime();
+        var seconds_left = (target_date - current_date) / 1000;
+        days = Math.max(0, parseInt(seconds_left / 86400));
+        seconds_left = seconds_left % 86400;
+        hours = Math.max(0, parseInt(seconds_left / 3600));
+        seconds_left = seconds_left % 3600;
+        minutes = Math.max(0, parseInt(seconds_left / 60));
+        seconds = Math.max(0, parseInt(seconds_left % 60));
+        countdown.innerHTML = days + "d, " + hours + "h, " + minutes + "m, " + seconds + "s";
+    }, 1000);
+};
+</script>
+{% endcontentfor %}
+
+{% contentfor body %}
+<div class="main wrapper clearfix">
+    <header>
+        <div id="introtext">
+            {% include title.html %}
+            <br/>
+            <br/>
+            <span class="head-matt"><span id="countdown"></span></span>
+        </div>
+    </header>
+{% endcontentfor %}

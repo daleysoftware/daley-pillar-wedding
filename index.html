@@ -12,18 +12,11 @@ layout: base
 </ul>
 {% endcontentfor %}
 
-
 {% contentfor body %}
 <div class="main wrapper clearfix">
     <header>
         <div id="introtext">
-            <span class="head-andrea">Andrea</span>
-            <span class="head-matt">&nbsp;
-                <span class="amp">&amp;</span>
-                MATT
-            </span>
-            <div class="date">June 4<sup>th</sup>, 2016</div>
-            <div class="tagline">Love, Laughter, & Happily Ever After</div>
+            {% include title.html %}
         </div>
     </header>
 
