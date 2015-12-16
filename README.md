@@ -7,3 +7,12 @@ Forked from bmgdev's
 template.
 
 <a href="http://daleypillarwedding.com">daleypillarwedding.com</a>
+
+## Viewing Locally
+
+Install prerequisites:
+
+    gem install jekyll bundler
+    bundle install
+
+To view locally, use `serve.sh`.

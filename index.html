@@ -1,310 +1,256 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+---
+layout: base
+---
 
-        <title>A+M Wedding</title>
-        <meta name="description"
-            content="Welcome to the wedding website for Andrea and Matt's Big Day!">
+{% contentfor header %}
+<ul>
+    <li><a href="#brideandgroom">BRIDE &amp; GROOM</a></li>
+    <li><a href="#accomodations">ACCOMODATIONS</a></li>
+    <li><a href="#wedding">WEDDING</a></li>
+    <li><a href="#registry">REGISTRY</a></li>
+    <li><a href="#rsvp">RSVP</a></li>
+</ul>
+{% endcontentfor %}
 
-        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 
-        <!-- For iPhone 4 with high-resolution Retina display: -->
-        <link rel="apple-touch-icon-precomposed" sizes="114x114"
-            href="apple-touch-icon-114x114-precomposed.png">
-        <!-- For first-generation iPad: -->
-        <link rel="apple-touch-icon-precomposed" sizes="72x72"
-            href="apple-touch-icon-72x72-precomposed.png">
-        <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
-        <link rel="apple-touch-icon-precomposed"
-            href="apple-touch-icon-precomposed.png">
+{% contentfor body %}
+<div class="main wrapper clearfix">
+    <header>
+        <div id="introtext">
+            <span class="head-andrea">Andrea</span>
+            <span class="head-matt">&nbsp;
+                <span class="amp">&amp;</span>
+                MATT
+            </span>
+            <div class="date">June 4<sup>th</sup>, 2016</div>
+            <div class="tagline">Love, Laughter, & Happily Ever After</div>
+        </div>
+    </header>
 
-        <link rel="shortcut icon" href="favicon.ico?v=1">
+    <div class="clearfix"></div>
 
-        <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="css/main-1.6.css">
+    <section id="brideandgroom" class="clearfix">
+        <h1>Bride and Groom</h1>
 
-        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-    </head>
-    <body>
-        <div id="bg-image">
-            <img src="img/bg-pic.jpg" alt="bg"/>
+        <div class="column left">
+            <h2>ANDREA</h2>
+            <p>
+                <img src="/img/andrea-thumb.png" class="thumb" alt="Andrea"/>
+                Born in Berkeley and raised in Orinda, Andrea fondly remembers much of her
+                childhood being spent around Bay Area pools, basketball courts, and with her
+                family. To this day, her swim record at the Moraga Country Club still stands from
+                when she was 7 years old! A planner to her very core, Andrea enjoys travel and has
+                lived in and visited many corners of the world. When Andrea isn't coordinating her
+                next event at work, you can probably find her tearing up the dance floor or talking
+                about getting a kitten.
+            </p>
         </div>
 
-        <div id="bg-container">
-
-            <div class="header-container">
-                <div id="heading" class="wrapper clearfix">
-                    <nav id="nav">
-                        <ul>
-                            <li><a href="#brideandgroom">BRIDE &amp; GROOM</a></li>
-                            <li><a href="#accomodations">ACCOMODATIONS</a></li>
-                            <li><a href="#wedding">WEDDING</a></li>
-                            <li><a href="#registry">REGISTRY</a></li>
-                            <li><a href="#rsvp">RSVP</a></li>
-                        </ul>
-
-                    </nav>
-                </div>
-            </div>
-
-            <div class="main-container">
-                <div class="main wrapper clearfix">
-                    <header>
-                        <div id="introtext">
-                            <span class="head-andrea">Andrea</span>
-                            <span class="head-matt">&nbsp;
-                                <span class="amp">&amp;</span>
-                                MATT
-                            </span>
-                            <div class="date">June 4<sup>th</sup>, 2016</div>
-                            <div class="tagline">Love, Laughter, & Happily Ever After</div>
-                        </div>
-                    </header>
-
-                    <div class="clearfix"></div>
-
-                    <section id="brideandgroom" class="clearfix">
-                        <h1>Bride and Groom</h1>
-
-                        <div class="column left">
-                            <h2>ANDREA</h2>
-                            <p>
-                                <img src="img/andrea-thumb.png" class="thumb" alt="Andrea"/>
-                                Born in Berkeley and raised in Orinda, Andrea fondly remembers much
-                                of her childhood being spent around Bay Area pools, basketball
-                                courts, and with her family. To this day, her swim record at the
-                                Moraga Country Club still stands from when she was 7 years old! A
-                                planner to her very core, Andrea enjoys travel and has lived in and
-                                visited many corners of the world. When Andrea isn't coordinating
-                                her next event at work, you can probably find her tearing up the
-                                dance floor or talking about getting a kitten.
-                            </p>
-                        </div>
-
-                        <div class="column right">
-                            <h2>MATT</h2>
-                            <p>
-                                <img src="img/matt-thumb.png" class="thumb" alt="Matt"/>
-                                Imported from the great white north, Matt grew up in Toronto,
-                                studied engineering at the University of Waterloo, and promptly
-                                moved to the Bay Area to pursue his technology career. Matt also
-                                grew up playing basketball, and he'll partake in any activity that
-                                gets him running around. Thanks to Andrea's influence, he most
-                                recently has caught the triathlon bug. Matt enjoys soaking in
-                                Californian culture with a strong IPA and some hip hop. One day, he
-                                hopes to have a dog (but not before Andrea gets her cat).
-                            </p>
-                        </div>
-
-                        <div class="clearfix"></div>
-                        <div class="column full">
-                            <div class="hr-t"></div>
-                            <div class="hr-b"></div>
-                        </div>
-
-                        <div class="column full">
-                            <h2>HOW WE MET</h2>
-                            <p>The happy couple first met on Andrea's birthday in the summer of
-                            2012 at the bar Nola in downtown Palo Alto. Andrea was celebrating with
-                            a group of friends and Matt was with a co-worker, grabbing a drink
-                            after work.</p>
-                            <p><a href="https://www.youtube.com/watch?v=y_SI2EDM6Lo">Break Your Heart by Taio Cruz ft Ludacris</a>
-                            was playing and Andrea was singing along (to the Luda part, of course).
-                            Matt's opener was to comment on how much Andrea must really like the
-                            song. Andrea wasn't particularly amused, but Matt persisted, and asked
-                            to participate in the birthday festivities presenting her with some
-                            Nola beads as a birthday gift. After some chatting and dancing, Andrea
-                            agreed to give Matt her number.</p>
-                            <p>For their first date Andrea and Matt went to La Strada, an Italian
-                            restaurant in Palo Alto. The week following the date they spent almost
-                            every day together, and they've never looked back.</p>
-
-                            <figure class="responsive-image proposal"
-                                data-media="img/collage.jpg"
-                                title="Some of our adventures">
-                                <noscript>
-                                    <img src="img/collage.jpg" alt="Some of our adventures"/>
-                                </noscript>
-                            </figure>
-                        </div>
-
-                        <div class="column full">
-                            <div class="hr-t"></div>
-                            <div class="hr-b"></div>
-                        </div>
-
-                        <div class="column full">
-                            <h2>OUR ENGAGEMENT</h2>
-                            <p>It was the summer of 2015, and Andrea and Matt had just returned
-                            from a trip to Austria and Ireland. Andrea's birthday was fast
-                            approaching, and Matt informed her that this year he had a special
-                            romantic weekend planned. Andrea was very suspicious. Something was
-                            up.</p>
-                            <p>On the weekend of Andrea's birthday, they travelled to Santa Cruz,
-                            where Matt insisted that they take a walk on the beach to check out the
-                            sea lions and grab lunch. At the very end of the pier, Andrea was
-                            surprised by a group of her friends and family who delivered a huge
-                            "Happy Birthday!" Matt then took Andrea's hand and told her there was
-                            a second piece to the surprise. Matt proposed, and Andrea said yes.</p>
-                            <p>The group celebrated with a champagne toast at the Dream Inn lounge,
-                            some beach volleyball, and a night of dancing.</p>
-
-                            <figure class="responsive-image proposal"
-                                data-media="img/proposal.jpg"
-                                title="Engagement crew">
-                                <noscript>
-                                    <img src="img/proposal.jpg" alt="Engagement crew"/>
-                                </noscript>
-                            </figure>
-                        </div>
-                    </section>
-
-                    <section id="accomodations" class="clearfix">
-                        <h1>Accomodations</h1>
-                        <div class="column full">
-                            <p>The Lafayette Park Hotel &amp; Spa is a staple of the Lamorinda
-                            area. Whenever Andrea's extended family members would visit Orinda,
-                            they would stay at this hotel. It was also the site of her basketball
-                            and swimming awards dinners growing up. It is filled with garden
-                            courtyards, a fountain pool area, and fabulous food to provide an East
-                            Bay retreat.</p>
-                            <p>Book online using
-                            <a href="https://gc.synxis.com/rez.aspx?Hotel=62263&Chain=16684&arrive=6/4/2016&depart=6/5/2016&adult=1&child=0&group=DPW0616" target="_blank">this link</a>
-                            or call the Lafayette Park Hotel and mention the Daley-Pillar Wedding
-                            for a discounted rate from our room block!</p>
-                            <p>
-                                <a href="http://www.lafayetteparkhotel.com/">Lafayette Park Hotel &amp; Spa</a><br/>
-                                3287 Mt Diablo Blvd<br/>
-                                Lafayette, CA 94549
-                            </p>
-                        </div>
-
-                        <div class="column full">
-                            <figure class="responsive-image proposal"
-                                data-media="img/hotel.jpg"
-                                title="Lafayette Park Hotel">
-                                <noscript>
-                                    <img src="img/hotel.jpg" alt="Lafayette Park Hotel"/>
-                                </noscript>
-                            </figure>
-                        </div>
-                    </section>
-
-                    <section id="wedding" class="clearfix">
-                        <h1>Wedding</h1>
-
-                        <div class="column full">
-                            <h2>CEREMONY</h2>
-                            <p>
-                                Join us for a backyard ceremony in Andrea's hometown.
-                                Please arrive by 4:30 pm as the processional will begin promptly at
-                                4:45 pm. Beverages and snacks will be served in the hour leading up
-                                to the processional.
-                            </p>
-                            <p>
-                                Round trip shuttle service between the Lafayette Park Hotel and the
-                                Orinda ceremony will be provided for our guests' convenience.
-                                Please note that check-in time at the hotel is 4pm and rooms are
-                                not guaranteed to be ready by the time the shuttle departs.
-                            </p>
-                            <p>
-                                <a href="https://www.google.com/maps/place/3+Westover+Ct,+Orinda,+CA+94563">The Home of Tom &amp; Sally Daley</a><br/>
-                                3 Westover Ct<br/>
-                                Orinda, CA 94563
-                            </p>
-                            <p>
-                                3:30 pm - The shuttle departs from the Lafayette Park Hotel<br/>
-                                3:45 pm - Guest Arrival at Orinda ceremony<br/>
-                                4:45 pm - Wedding processional begins<br/>
-                                5:30 pm - The shuttle departs from the Orinda ceremony for the hotel
-                            </p>
-                        </div>
-
-                        <div class="column full">
-                            <div class="hr-t"></div>
-                            <div class="hr-b"></div>
-                        </div>
-
-                        <div class="column full">
-                            <h2>RECEPTION</h2>
-                            <p>
-                                6:00 pm - Fountain Courtyard Reception<br/>
-                                7:00 pm - Independence Ballroom Dinner and Dancing
-                            </p>
-
-                            <figure class="responsive-image proposal"
-                                data-media="img/ballroom.jpg"
-                                title="Lafayette Park Hotel Independence Ballroom">
-                                <noscript>
-                                    <img src="img/ballroom.jpg" alt="Lafayette Park Hotel Independence Ballroom"/>
-                                </noscript>
-                            </figure>
-                        </div>
-
-                        <div class="column full">
-                            <div class="hr-t"></div>
-                            <div class="hr-b"></div>
-                        </div>
-
-                        <div class="column full">
-                            <h2>MORNING AFTER</h2>
-                            <p>
-                                We are hosting a brunch and pool day at the Lafayette Park Hotel
-                                the Sunday morning after the festivities.
-                                Bring your swimsuit and stick around for more fun!
-                            </p>
-                            <p>
-                                10:30 am - Wishing Well Courtyard Brunch
-                            </p>
-
-                            <figure class="responsive-image proposal"
-                                data-media="img/pool.jpg"
-                                title="Lafayette Park Hotel Pool">
-                                <noscript>
-                                    <img src="img/pool.jpg" alt="Lafayette Park Hotel Pool"/>
-                                </noscript>
-                            </figure>
-                        </div>
-                    </section>
-
-                    <section id="registry" class="clearfix">
-                        <h1>Registry</h1>
-                        <div class="column full">
-                            <p>
-                                We have registered at the following places. Please click on the
-                                links below to view our complete registries.
-                            </p>
-                            <p><a
-                                href="http://registry.theknot.com/andrea-daley-matt-pillar-june-2016-ca/12116630"
-                                target="_blank">Macy's</a></p>
-                            <p><a
-                                href="http://www.honeyfund.com/wedding/daleypillarwedding"
-                                target="_blank">Honey Fund</a></p>
-                        </div>
-                    </section>
-
-                    <section id="rsvp" class="clearfix">
-                        <h1>RSVP</h1>
-                        <div class="column full">
-                            <p>
-                                Please RSVP using the following form. Alternatively you may RSVP
-                                via US Mail.
-                            </p>
-                            <p>
-                                <a href="https://docs.google.com/forms/d/1XZI9O8pKql4DM53TX3d-I7ygwyCxyFxWRfzIQQB01GQ/viewform" target="_blank">RSVP form</a>
-                            </p>
-                    </section>
-
-                    <div style="height: 300px"></div>
-                </div>
-            </div>
+        <div class="column right">
+            <h2>MATT</h2>
+            <p>
+                <img src="/img/matt-thumb.png" class="thumb" alt="Matt"/>
+                Imported from the great white north, Matt grew up in Toronto, studied engineering
+                at the University of Waterloo, and promptly moved to the Bay Area to pursue his
+                technology career. Matt also grew up playing basketball, and he'll partake in any
+                activity that gets him running around. Thanks to Andrea's influence, he most
+                recently has caught the triathlon bug. Matt enjoys soaking in Californian culture
+                with a strong IPA and some hip hop. One day, he hopes to have a dog (but not before
+                Andrea gets her cat).
+            </p>
         </div>
 
-        <script src="js/main-1.6.js"></script>
-    </body>
-</html>
+        <div class="clearfix"></div>
+        <div class="column full">
+            <div class="hr-t"></div>
+            <div class="hr-b"></div>
+        </div>
+
+        <div class="column full">
+            <h2>HOW WE MET</h2>
+            <p>The happy couple first met on Andrea's birthday in the summer of 2012 at the bar
+            Nola in downtown Palo Alto. Andrea was celebrating with a group of friends and Matt
+            was with a co-worker, grabbing a drink after work.</p>
+            <p><a href="https://www.youtube.com/watch?v=y_SI2EDM6Lo">Break Your Heart by Taio Cruz ft Ludacris</a>
+            was playing and Andrea was singing along (to the Luda part, of course). Matt's opener
+            was to comment on how much Andrea must really like the song. Andrea wasn't particularly
+            amused, but Matt persisted, and asked to participate in the birthday festivities
+            presenting her with some Nola beads as a birthday gift. After some chatting and
+            dancing, Andrea agreed to give Matt her number.</p>
+            <p>For their first date Andrea and Matt went to La Strada, an Italian restaurant in
+            Palo Alto. The week following the date they spent almost every day together, and
+            they've never looked back.</p>
+
+            <figure class="responsive-image proposal"
+                data-media="/img/collage.jpg"
+                title="Some of our adventures">
+                <noscript>
+                    <img src="/img/collage.jpg" alt="Some of our adventures"/>
+                </noscript>
+            </figure>
+        </div>
+
+        <div class="column full">
+            <div class="hr-t"></div>
+            <div class="hr-b"></div>
+        </div>
+
+        <div class="column full">
+            <h2>OUR ENGAGEMENT</h2>
+            <p>It was the summer of 2015, and Andrea and Matt had just returned from a trip to
+            Austria and Ireland. Andrea's birthday was fast approaching, and Matt informed her that
+            this year he had a special romantic weekend planned. Andrea was very suspicious.
+            Something was up.</p>
+            <p>On the weekend of Andrea's birthday, they travelled to Santa Cruz, where Matt
+            insisted that they take a walk on the beach to check out the sea lions and grab lunch.
+            At the very end of the pier, Andrea was surprised by a group of her friends and family
+            who delivered a huge "Happy Birthday!" Matt then took Andrea's hand and told her there
+            was a second piece to the surprise. Matt proposed, and Andrea said yes.</p>
+            <p>The group celebrated with a champagne toast at the Dream Inn lounge, some beach
+            volleyball, and a night of dancing.</p>
+
+            <figure class="responsive-image proposal"
+                data-media="/img/proposal.jpg"
+                title="Engagement crew">
+                <noscript>
+                    <img src="/img/proposal.jpg" alt="Engagement crew"/>
+                </noscript>
+            </figure>
+        </div>
+    </section>
+
+    <section id="accomodations" class="clearfix">
+        <h1>Accomodations</h1>
+        <div class="column full">
+            <p>The Lafayette Park Hotel &amp; Spa is a staple of the Lamorinda area. Whenever
+            Andrea's extended family members would visit Orinda, they would stay at this hotel. It
+            was also the site of her basketball and swimming awards dinners growing up. It is
+            filled with garden courtyards, a fountain pool area, and fabulous food to provide an
+            East Bay retreat.</p>
+            <p>Book online using
+            <a href="https://gc.synxis.com/rez.aspx?Hotel=62263&Chain=16684&arrive=6/4/2016&depart=6/5/2016&adult=1&child=0&group=DPW0616" target="_blank">this link</a>
+            or call the Lafayette Park Hotel and mention the Daley-Pillar Wedding for a discounted
+            rate from our room block!</p>
+            <p>
+                <a href="http://www.lafayetteparkhotel.com/">Lafayette Park Hotel &amp; Spa</a><br/>
+                3287 Mt Diablo Blvd<br/>
+                Lafayette, CA 94549
+            </p>
+        </div>
+
+        <div class="column full">
+            <figure class="responsive-image proposal"
+                data-media="/img/hotel.jpg"
+                title="Lafayette Park Hotel">
+                <noscript>
+                    <img src="/img/hotel.jpg" alt="Lafayette Park Hotel"/>
+                </noscript>
+            </figure>
+        </div>
+    </section>
+
+    <section id="wedding" class="clearfix">
+        <h1>Wedding</h1>
+
+        <div class="column full">
+            <h2>CEREMONY</h2>
+            <p>
+                Join us for a backyard ceremony in Andrea's hometown. Please arrive by 4:30 pm as
+                the processional will begin promptly at 4:45 pm. Beverages and snacks will be
+                served in the hour leading up to the processional.
+            </p>
+            <p>
+                Round trip shuttle service between the Lafayette Park Hotel and the Orinda ceremony
+                will be provided for our guests' convenience. Please note that check-in time at the
+                hotel is 4pm and rooms are not guaranteed to be ready by the time the shuttle
+                departs.
+            </p>
+            <p>
+                <a href="https://www.google.com/maps/place/3+Westover+Ct,+Orinda,+CA+94563">The Home of Tom &amp; Sally Daley</a><br/>
+                3 Westover Ct<br/>
+                Orinda, CA 94563
+            </p>
+            <p>
+                3:30 pm - The shuttle departs from the Lafayette Park Hotel<br/>
+                3:45 pm - Guest Arrival at Orinda ceremony<br/>
+                4:45 pm - Wedding processional begins<br/>
+                5:30 pm - The shuttle departs from the Orinda ceremony for the hotel
+            </p>
+        </div>
+
+        <div class="column full">
+            <div class="hr-t"></div>
+            <div class="hr-b"></div>
+        </div>
+
+        <div class="column full">
+            <h2>RECEPTION</h2>
+            <p>
+                6:00 pm - Fountain Courtyard Reception<br/>
+                7:00 pm - Independence Ballroom Dinner and Dancing
+            </p>
+
+            <figure class="responsive-image proposal"
+                data-media="/img/ballroom.jpg"
+                title="Lafayette Park Hotel Independence Ballroom">
+                <noscript>
+                    <img src="/img/ballroom.jpg" alt="Lafayette Park Hotel Independence Ballroom"/>
+                </noscript>
+            </figure>
+        </div>
+
+        <div class="column full">
+            <div class="hr-t"></div>
+            <div class="hr-b"></div>
+        </div>
+
+        <div class="column full">
+            <h2>MORNING AFTER</h2>
+            <p>
+                We are hosting a brunch and pool day at the Lafayette Park Hotel the Sunday morning
+                after the festivities. Bring your swimsuit and stick around for more fun!
+            </p>
+            <p>
+                10:30 am - Wishing Well Courtyard Brunch
+            </p>
+
+            <figure class="responsive-image proposal"
+                data-media="/img/pool.jpg"
+                title="Lafayette Park Hotel Pool">
+                <noscript>
+                    <img src="/img/pool.jpg" alt="Lafayette Park Hotel Pool"/>
+                </noscript>
+            </figure>
+        </div>
+    </section>
+
+    <section id="registry" class="clearfix">
+        <h1>Registry</h1>
+        <div class="column full">
+            <p>
+                We have registered at the following places. Please click on the links below to view
+                our complete registries.
+            </p>
+            <p><a
+                href="http://registry.theknot.com/andrea-daley-matt-pillar-june-2016-ca/12116630"
+                target="_blank">Macy's</a></p>
+            <p><a
+                href="http://www.honeyfund.com/wedding/daleypillarwedding"
+                target="_blank">Honey Fund</a></p>
+        </div>
+    </section>
+
+    <section id="rsvp" class="clearfix">
+        <h1>RSVP</h1>
+        <div class="column full">
+            <p>
+                Please RSVP using the following form. Alternatively you may RSVP via US Mail.
+            </p>
+            <p>
+                <a href="https://docs.google.com/forms/d/1XZI9O8pKql4DM53TX3d-I7ygwyCxyFxWRfzIQQB01GQ/viewform" target="_blank">RSVP form</a>
+            </p>
+    </section>
+
+    <div style="height: 300px"></div>
+</div>
+{% endcontentfor %}
