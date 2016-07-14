@@ -15,4 +15,4 @@ Install prerequisites:
     gem install jekyll bundler
     bundle install
 
-To view locally, use `serve.sh`.
+To view locally, use `make serve`.
